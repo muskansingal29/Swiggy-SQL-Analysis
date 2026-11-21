@@ -1,0 +1,31 @@
+<div align="center">
+
+# Data Analytics & Data Science Notes
+
+![Repo Size](https://img.shields.io/badge/REPO%20SIZE-10%20MB-blue?style=flat-square)
+![Stars](https://img.shields.io/github/stars/YOUR-USERNAME/YOUR-REPO?style=flat-square)
+![Forks](https://img.shields.io/github/forks/YOUR-USERNAME/YOUR-REPO?style=flat-square)
+
+<br>
+
+![Python](https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white)
+![Excel](https://img.shields.io/badge/EXCEL-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
+</div>
+
+---
+
+## About This Repository
+
+> A structured collection of notes, datasets, and code notebooks for Data Analytics and Data Science.
+
+---
+
+## Live Platforms & Interactive Tools
+
+| Platform | Description | Link |
+| :--- | :--- | :--- |
+| Jupyter Notebook | Interactive Python code notebooks | [Open](https://jupyter.org) |
+| Kaggle | Practice datasets and competitions | [Open](https://kaggle.com) |
