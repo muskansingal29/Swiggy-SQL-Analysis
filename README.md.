@@ -1,31 +1,211 @@
 <div align="center">
-
-# Data Analytics & Data Science Notes
-
-![Repo Size](https://img.shields.io/badge/REPO%20SIZE-10%20MB-blue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/YOUR-USERNAME/YOUR-REPO?style=flat-square)
-![Forks](https://img.shields.io/github/forks/YOUR-USERNAME/YOUR-REPO?style=flat-square)
-
-<br>
-
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/PANDAS-150458?style=flat-square&logo=pandas&logoColor=white)
-![Excel](https://img.shields.io/badge/EXCEL-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-
+ 
+# 🍽️ Swiggy SQL Analysis
+ 
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=3000&pause=1000&color=FF6B35&center=true&vCenter=true&width=700&lines=Swiggy+Restaurant+Data+Analysis;SQL+Business+Insights;Data+Driven+Decision+Making;Advanced+SQL+Project" />
+ 
+<p>
+<img src="https://img.shields.io/badge/SQL-MySQL-orange?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/Data-Analysis-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Open%20Source-GitHub-black?style=for-the-badge&logo=github">
+</p>
+ 
 </div>
-
+ 
 ---
-
-## About This Repository
-
-> A structured collection of notes, datasets, and code notebooks for Data Analytics and Data Science.
-
+ 
+## 📖 About The Project
+ 
+This project analyzes **Swiggy restaurant data** using SQL to derive actionable business insights.
+ 
+The objective is to answer real-world business questions related to:
+ 
+- Restaurant performance
+- Cuisine popularity
+- Customer engagement
+- Revenue estimation
+- Pricing strategies
+- City-wise trends
+ 
 ---
-
-## Live Platforms & Interactive Tools
-
-| Platform | Description | Link |
-| :--- | :--- | :--- |
-| Jupyter Notebook | Interactive Python code notebooks | [Open](https://jupyter.org) |
-| Kaggle | Practice datasets and competitions | [Open](https://kaggle.com) |
+ 
+## 🚀 Project Highlights
+ 
+✅ 30+ Business Queries Solved
+ 
+✅ Advanced SQL Concepts Applied
+ 
+✅ Real-World Dataset Analysis
+ 
+✅ Data-Driven Insights Generated
+ 
+✅ Portfolio Ready SQL Project
+ 
+---
+ 
+## 📂 Dataset Information
+ 
+The dataset contains restaurant-related information such as:
+ 
+| Column | Description |
+|----------|------------|
+| Name | Restaurant Name |
+| City | Location |
+| Cuisine | Food Category |
+| Rating | Customer Rating |
+| Rating Count | Number of Reviews |
+| Cost | Average Cost For Two |
+ 
+---
+ 
+## 🛠 Tools Used
+ 
+<div align="center">
+ 
+<img src="https://skillicons.dev/icons?i=mysql,github,vscode" />
+ 
+</div>
+ 
+- SQL
+- MySQL
+- GitHub
+- Data Analytics
+ 
+---
+ 
+## 📊 Business Problems Solved
+ 
+### 🏆 Restaurant Analysis
+ 
+- Top revenue generating restaurants
+- Least visited restaurants
+- Unique restaurant brands
+- Restaurant ranking analysis
+ 
+### 🍕 Cuisine Analysis
+ 
+- Most popular cuisines
+- Most expensive cuisines
+- Least expensive cuisines
+- City-wise cuisine trends
+ 
+### 🌆 City Analysis
+ 
+- City with maximum restaurants
+- City-wise restaurant distribution
+- Popular cuisines by city
+ 
+### ⭐ Rating Analysis
+ 
+- Highest-rated restaurants
+- Most reviewed restaurants
+- Customer engagement trends
+ 
+---
+ 
+## 📈 SQL Concepts Used
+ 
+<div align="center">
+ 
+| Concept | Status |
+|----------|---------|
+| GROUP BY | ✅ |
+| HAVING | ✅ |
+| CASE WHEN | ✅ |
+| JOINS | ✅ |
+| SELF JOIN | ✅ |
+| SUBQUERIES | ✅ |
+| CTE | ✅ |
+| WINDOW FUNCTIONS | ✅ |
+| RANK() | ✅ |
+| DENSE_RANK() | ✅ |
+ 
+</div>
+ 
+---
+ 
+## 💻 Sample Query
+ 
+```sql
+WITH Revenue_CTE AS
+(
+SELECT
+Name,
+Cost * Rating_Count AS Revenue
+FROM restaurants
+)
+ 
+SELECT *
+FROM Revenue_CTE
+ORDER BY Revenue DESC
+LIMIT 10;
+```
+ 
+---
+ 
+## 🔥 Key Insights
+ 
+📌 Identified top-performing restaurants based on estimated revenue.
+ 
+📌 Discovered city-wise food preferences.
+ 
+📌 Analyzed customer engagement through ratings and review counts.
+ 
+📌 Compared cuisines by popularity and cost.
+ 
+📌 Generated actionable business recommendations.
+ 
+---
+ 
+## 📁 Repository Structure
+ 
+```text
+Swiggy-SQL-Analysis
+│
+├── README.md
+├── Swiggy project.sql
+└── Dataset
+```
+ 
+---
+ 
+## 📸 Project Preview
+ 
+You can add screenshots later like this:
+ 
+```markdown
+<p align="center">
+<img src="images/dashboard.png" width="900">
+</p>
+```
+ 
+---
+ 
+## 🌟 Future Improvements
+ 
+- Power BI Dashboard
+- Tableau Dashboard
+- Python Analysis
+- Interactive Visualizations
+- Reporting Dashboard
+ 
+---
+ 
+## 👩‍💻 Author
+ 
+### Muskan Singal
+ 
+📊 Data Analyst | SQL Enthusiast | Business Intelligence Learner
+ 
+🔗 GitHub: https://github.com/muskansingal29
+ 
+---
+ 
+<div align="center">
+ 
+### ⭐ If you like this project, give it a star!
+ 
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&duration=2500&pause=1000&color=FF6B35&center=true&vCenter=true&width=500&lines=Thank+You+For+Visiting!;Happy+Learning+SQL!;Keep+Building+Projects!" />
+ 
+</div>
